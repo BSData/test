@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d58da29e-5f81-4a18-85e1-c62832bf9c7b" revision="3" gameSystemId="3bbfc437-c44c-45f5-85ae-793810a50ce2" gameSystemRevision="1" battleScribeVersion="1.14b" name="Space Knights" authorName="Jon Taylor" authorContact="jon.taylor@battlescribe.net" authorUrl="http://www.battlescribe.net" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="8e01b0d5-141e-4e59-ad60-10a6b03a66ac" name="Assault Tank" points="75.0" categoryId="537570706f727423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="8ff0cd14-191c-44b7-8d35-099aecda145d" name="Additional Armour" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="ad3f0551-4bdf-4f80-981a-382052abeb17" name="Bulldozer" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="d0dfaec1-b2c2-4c5a-8e6d-45f7f9e5fb93" name="Turrent Weapon" defaultEntryId="d93075bc-79af-5a55-7fd6-9e56805a3473" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="d93075bc-79af-5a55-7fd6-9e56805a3473" targetId="00abb8e4-3687-e8f9-310a-a7a6831d4ef1" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="54dd1cd4-a9fe-a009-3546-a319a83f6aed" targetId="45f03d5f-60b1-3b61-7b87-dd0aeaab19f8" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c5fe6c2e-cb5d-40d4-98e0-6d12302c91a0" name="Sponson Weapons" defaultEntryId="6e614fbe-3a4a-94aa-5c2d-952d8489eaf4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="57018fc6-132b-059a-3676-dd350dd64e03" targetId="45f03d5f-60b1-3b61-7b87-dd0aeaab19f8" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6e614fbe-3a4a-94aa-5c2d-952d8489eaf4" targetId="00abb8e4-3687-e8f9-310a-a7a6831d4ef1" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="41737361756c742054616e6b23232344415441232323" profileTypeId="56656869636c6523232344415441232323" name="Assault Tank" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="525323232344415441232323" name="RS" value="4"/>
+            <characteristic characteristicId="464123232344415441232323" name="FA" value="13"/>
+            <characteristic characteristicId="534123232344415441232323" name="SA" value="11"/>
+            <characteristic characteristicId="524123232344415441232323" name="RA" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="64cb808a-98e8-4216-9bc2-61fca013937c" name="Honour Guard" points="0.0" categoryId="456c69746523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="7fc3081b-92f3-43a5-82ea-8530664915a1" name="Paladin" points="9.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries>
+            <entry id="f6d63ca0-d7d3-4058-9004-cbb617989a6a" name="Grenades" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="50616c6164696e23232344415441232323" profileTypeId="496e66616e74727923232344415441232323" name="Paladin" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="435323232344415441232323" name="CS" value="5"/>
+                <characteristic characteristicId="525323232344415441232323" name="RS" value="5"/>
+                <characteristic characteristicId="537423232344415441232323" name="St" value="4"/>
+                <characteristic characteristicId="546f23232344415441232323" name="To" value="4"/>
+                <characteristic characteristicId="485023232344415441232323" name="HP" value="1"/>
+                <characteristic characteristicId="496e23232344415441232323" name="In" value="5"/>
+                <characteristic characteristicId="417423232344415441232323" name="At" value="2"/>
+                <characteristic characteristicId="4e7623232344415441232323" name="Nv" value="9"/>
+                <characteristic characteristicId="417223232344415441232323" name="Ar" value="3+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="451624cb-b389-b096-25c4-98d561d3eea9" targetId="27000587-8136-1ff1-dcf7-69bf7262f59f" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="4ca15857-c52e-96fd-bca9-1db55dc3e962" targetId="45ea536d-445a-f59e-6b30-4ff1a3250048" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="b0906128-ba3c-9653-6a44-2a459d7e5341" targetId="4e3600d1-1bdc-c522-5db4-931040ece2c6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e1f8acf3-5c02-dffc-8cf8-1276ef6344c4" name="Neophite Squad" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="1829cce3-a5ca-a292-76e4-18e35ab1b745" name="Squad Members" minSelections="5" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3706b349-10c9-dd51-44ae-540c8e23ccae" name="Neophite" points="4.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="cede6520-d877-667d-8e9c-431b1bcf7870" name="Weapons" defaultEntryId="778aab5d-6885-1bd6-67be-b0daedb3398a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries>
+                    <entry id="778aab5d-6885-1bd6-67be-b0daedb3398a" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                    <entry id="a12e0a4c-b553-9324-7133-69e7395a69b8" name="Assault Rifle" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                    <entry id="7781358a-8f00-4278-60ad-188b87f5c416" name="Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="63e19673-4c73-6c18-59e4-0366856b8f57" profileTypeId="496e66616e74727923232344415441232323" name="Neophite" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="435323232344415441232323" name="CS" value="3"/>
+                    <characteristic characteristicId="525323232344415441232323" name="RS" value="3"/>
+                    <characteristic characteristicId="537423232344415441232323" name="St" value="4"/>
+                    <characteristic characteristicId="546f23232344415441232323" name="To" value="4"/>
+                    <characteristic characteristicId="485023232344415441232323" name="HP" value="1"/>
+                    <characteristic characteristicId="496e23232344415441232323" name="In" value="4"/>
+                    <characteristic characteristicId="417423232344415441232323" name="At" value="1"/>
+                    <characteristic characteristicId="4e7623232344415441232323" name="Nv" value="8"/>
+                    <characteristic characteristicId="417223232344415441232323" name="Ar" value="4+"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8721640d-7f10-23a9-3b6a-a1abbbd3a41b" targetId="a7c51788-0867-76cf-3259-0e7c1aa5ae40" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="455e4d8f-0985-7d04-b090-8ffed665a982" targetId="00abb8e4-3687-e8f9-310a-a7a6831d4ef1" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5579c30b-d880-4595-8241-84186e595d4e" name="Space Knight Commander" points="50.0" categoryId="48656164717561727465727323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="asdasd" page="10">
+      <entries>
+        <entry id="d2b7fe3e-8b34-4fca-9f01-955e6d7f8201" name="Demo Charges" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="378ec2c7-a745-4a5d-85b1-7bf60f5a1d0a" name="Force Field" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="8d6e32e5-b6a6-aecd-e8e5-56dee9acafde" name="thing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="40a0f69c-51c6-213d-4d9c-ba1ab31d5c01" name="other thing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5370616365204b6e6967687420436f6d6d616e64657223232344415441232323" profileTypeId="496e66616e74727923232344415441232323" name="Space Knight Commander" hidden="false" book="asdasd" page="10">
+          <characteristics>
+            <characteristic characteristicId="435323232344415441232323" name="CS" value="5"/>
+            <characteristic characteristicId="525323232344415441232323" name="RS" value="5"/>
+            <characteristic characteristicId="537423232344415441232323" name="St" value="4"/>
+            <characteristic characteristicId="546f23232344415441232323" name="To" value="4"/>
+            <characteristic characteristicId="485023232344415441232323" name="HP" value="3"/>
+            <characteristic characteristicId="496e23232344415441232323" name="In" value="5"/>
+            <characteristic characteristicId="417423232344415441232323" name="At" value="3"/>
+            <characteristic characteristicId="4e7623232344415441232323" name="Nv" value="10"/>
+            <characteristic characteristicId="417223232344415441232323" name="Ar" value="3+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5adeacce-3f8a-6065-f695-1e24be4e7d1e" targetId="27000587-8136-1ff1-dcf7-69bf7262f59f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c62e713c-5d51-7160-0560-3595ef532eb2" targetId="4e3600d1-1bdc-c522-5db4-931040ece2c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9d20017e-b138-bf6d-6d23-6eb07950a8c1" targetId="45ea536d-445a-f59e-6b30-4ff1a3250048" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5e15086c-c142-4c17-bba8-36dd1d75d724" name="Space Knight Squad" points="0.0" categoryId="436f726523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ecc2d169-627a-47ce-be6f-81002843badb" name="Squad Members" minSelections="5" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ce3aee1c-c9ac-4465-aec5-21ec7f064c3f" name="Space Knight" points="7.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="d493d126-563f-33c4-7a40-bb0f1963a1fc" name="Grenades" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups>
+                <entryGroup id="26b16a2c-0d69-4c49-b1fc-7d5825bb341a" name="Weapons" defaultEntryId="f149edb8-6c91-4004-bf53-981f277d19b4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries>
+                    <entry id="f149edb8-6c91-4004-bf53-981f277d19b4" name="Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups>
+                    <entryGroup id="dd1103c7-88d7-4873-a534-4fb35c7fc4e8" name="Heavy Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links>
+                        <link id="afff93a3-46ce-c0cd-9843-c5177e058231" targetId="00abb8e4-3687-e8f9-310a-a7a6831d4ef1" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="1f46d293-2627-3f42-81c1-83c5698c756a" targetId="ad04268f-d24b-0719-4ebc-2f85ac0a782a" linkType="entry">
+                          <modifiers/>
+                        </link>
+                        <link id="b55be686-25e6-69dd-5e17-a5ced812af9e" targetId="45f03d5f-60b1-3b61-7b87-dd0aeaab19f8" linkType="entry">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entryGroup>
+                    <entryGroup id="65bc6236-338b-4865-9d74-f7b95f4b2c95" name="Assault Weapon" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="83691758-4702-4309-b347-66bf98f7691f" name="Flamethrower" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                        <entry id="d3b063a7-95fa-4ba2-abbe-70df629164fe" name="Heavy Assault Rifle" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+                <entryGroup id="0681462c-c2ef-d51e-cd24-489520622e1c" name="test" defaultEntryId="b94fb36e-dcbc-84a6-5195-d8a4905fd6e3" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="b94fb36e-dcbc-84a6-5195-d8a4905fd6e3" name="New Entry 1" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                    <entry id="ef9ecf86-e497-9846-67b6-690472764fdc" name="New Entry 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups>
+                    <entryGroup id="20dc5216-c66c-a781-9cb7-0b89bc5029ea" name="New Entry Group" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="a35ee944-9107-5958-53a7-f3c00dd7e15b" name="New Entry 3" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                        <entry id="38ffba18-0272-6e22-669f-97c4f04db648" name="New Entry 4" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="26b3162b-f5c5-b912-6483-e1b5fbc0ae44" profileTypeId="496e66616e74727923232344415441232323" name="Space Knight" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="435323232344415441232323" name="CS" value="4"/>
+                    <characteristic characteristicId="525323232344415441232323" name="RS" value="4"/>
+                    <characteristic characteristicId="537423232344415441232323" name="St" value="4"/>
+                    <characteristic characteristicId="546f23232344415441232323" name="To" value="4"/>
+                    <characteristic characteristicId="485023232344415441232323" name="HP" value="1"/>
+                    <characteristic characteristicId="496e23232344415441232323" name="In" value="4"/>
+                    <characteristic characteristicId="417423232344415441232323" name="At" value="1"/>
+                    <characteristic characteristicId="4e7623232344415441232323" name="Nv" value="8"/>
+                    <characteristic characteristicId="417223232344415441232323" name="Ar" value="3+"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b1a06360-75d6-1521-8679-1c37695d1f54" targetId="a7c51788-0867-76cf-3259-0e7c1aa5ae40" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="53706c697420537175616423232344415441232323" name="Split Squad" hidden="false" page="0">
+          <description>If the Space Knight Squad consists of 10 models, you may deploy the squad as two separate 5 model squads.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="98f4c246-71fd-419d-9784-909e94cf73b4" name="Speeder" points="25.0" categoryId="466173742041737361756c7423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="0b15c341-1b42-4e85-a4d4-634d1121bda5" name="Hull Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="c02ab0bd-a0aa-b785-06ea-60a27a5d5cd9" targetId="00abb8e4-3687-e8f9-310a-a7a6831d4ef1" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0ba6b05d-a6d1-51de-8556-624e281e7ef1" targetId="ad04268f-d24b-0719-4ebc-2f85ac0a782a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="b9552faa-cf4d-457b-a147-fd263739955e" name="Underslung Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="697a07be-aba3-94a1-b5b3-f6d1856198f4" targetId="00abb8e4-3687-e8f9-310a-a7a6831d4ef1" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="463ada75-e7f2-6f64-cedc-d89a8f4ed1b7" targetId="ad04268f-d24b-0719-4ebc-2f85ac0a782a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="minInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="total selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="56657279204661737420536b696d6d657223232344415441232323" name="Very Fast Skimmer" hidden="false" page="0">
+          <description>The speeder follows the rules for Very Fast Skimmer vehicles from the Warsword 5000 rulebook.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5370656564657223232344415441232323" profileTypeId="56656869636c6523232344415441232323" name="Speeder" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="525323232344415441232323" name="RS" value="4"/>
+            <characteristic characteristicId="464123232344415441232323" name="FA" value="10"/>
+            <characteristic characteristicId="534123232344415441232323" name="SA" value="10"/>
+            <characteristic characteristicId="524123232344415441232323" name="RA" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links>
+    <link id="5a3b2002-8913-a7b6-47dc-fda8b57a2185" targetId="3e3deb77-ef01-cc11-24bf-fec53f4888cd" linkType="entry" categoryId="48656164717561727465727323232344415441232323">
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="f13dff7d-5fbf-0fbb-3dac-93f5a90bd389" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </link>
+    <link id="a81c9388-67d8-1e6d-0b3e-375293310226" targetId="f13dff7d-5fbf-0fbb-3dac-93f5a90bd389" linkType="entry" categoryId="436f726523232344415441232323">
+      <modifiers/>
+    </link>
+    <link id="7e3130ed-0705-1946-f8c0-db36e1a16a6a" targetId="3e3deb77-ef01-cc11-24bf-fec53f4888cd" linkType="entry" categoryId="436f726523232344415441232323">
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="98f4c246-71fd-419d-9784-909e94cf73b4" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </link>
+  </links>
+  <sharedEntries>
+    <entry id="65e9aac6-669e-1178-6353-319b96594eec" name="Assault Tank test" points="75.0" categoryId="537570706f727423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="d5782423-f2d5-623e-2f31-e60041ac1b09" name="New Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="9535c270-1627-59bb-8b66-975e11fd89d0" name="Finkin cap" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="00abb8e4-3687-e8f9-310a-a7a6831d4ef1" name="Heavy Cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="05820e03-f085-0221-8921-c0edc2e1c252" profileTypeId="576561706f6e23232344415441232323" name="Heavy Cannon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="526e23232344415441232323" name="Rn" value="48"/>
+            <characteristic characteristicId="537423232344415441232323" name="St" value="7"/>
+            <characteristic characteristicId="506e23232344415441232323" name="Pn" value="4"/>
+            <characteristic characteristicId="4e6f74657323232344415441232323" name="Notes" value="Heavy weapon, 2 shots"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="45f03d5f-60b1-3b61-7b87-dd0aeaab19f8" name="Laser Cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e8dfdf08-0b4e-fd0d-cd9c-3b330bdb64ac" profileTypeId="576561706f6e23232344415441232323" name="Laser Cannon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="526e23232344415441232323" name="Rn" value="48"/>
+            <characteristic characteristicId="537423232344415441232323" name="St" value="9"/>
+            <characteristic characteristicId="506e23232344415441232323" name="Pn" value="2"/>
+            <characteristic characteristicId="4e6f74657323232344415441232323" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f13dff7d-5fbf-0fbb-3dac-93f5a90bd389" name="New Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="ad04268f-d24b-0719-4ebc-2f85ac0a782a" name="Rocket Launcher" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bbc80e92-5e17-b3d7-e912-efb45eb16884" profileTypeId="576561706f6e23232344415441232323" name="Rocket Launcher (Frag)" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="526e23232344415441232323" name="Rn" value="48"/>
+            <characteristic characteristicId="537423232344415441232323" name="St" value="3"/>
+            <characteristic characteristicId="506e23232344415441232323" name="Pn" value="-"/>
+            <characteristic characteristicId="4e6f74657323232344415441232323" name="Notes" value="Blast marker"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="911f37e2-4a6c-7322-ac0f-4514259217bd" profileTypeId="576561706f6e23232344415441232323" name="Rocket Launcher (Anti Tank)" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="526e23232344415441232323" name="Rn" value="48"/>
+            <characteristic characteristicId="537423232344415441232323" name="St" value="8"/>
+            <characteristic characteristicId="506e23232344415441232323" name="Pn" value="3"/>
+            <characteristic characteristicId="4e6f74657323232344415441232323" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a7c51788-0867-76cf-3259-0e7c1aa5ae40" name="Space Knight Sergeant" points="9.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="6575f4c5-0691-5ec6-1326-d04cd1cafda2" name="Grenades" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f82dbbcf-3c78-867f-997f-b31ae34bbe3f" profileTypeId="496e66616e74727923232344415441232323" name="Space Knight Sergeant" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="435323232344415441232323" name="CS" value="4"/>
+            <characteristic characteristicId="525323232344415441232323" name="RS" value="4"/>
+            <characteristic characteristicId="537423232344415441232323" name="St" value="4"/>
+            <characteristic characteristicId="546f23232344415441232323" name="To" value="4"/>
+            <characteristic characteristicId="485023232344415441232323" name="HP" value="1"/>
+            <characteristic characteristicId="496e23232344415441232323" name="In" value="4"/>
+            <characteristic characteristicId="417423232344415441232323" name="At" value="2"/>
+            <characteristic characteristicId="4e7623232344415441232323" name="Nv" value="9"/>
+            <characteristic characteristicId="417223232344415441232323" name="Ar" value="3+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ba5d98ec-82b4-015c-b0e1-542cd309a95f" targetId="27000587-8136-1ff1-dcf7-69bf7262f59f" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3e3deb77-ef01-cc11-24bf-fec53f4888cd" name="Warboss" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="03ff7153-e38d-d0b1-a4a1-c9ad550cf34a" name="Items" minSelections="0" maxSelections="1" minInForce="1" maxInForce="1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="5b09cc01-eb0a-283c-d043-47b2bad6227d" targetId="9535c270-1627-59bb-8b66-975e11fd89d0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fa6c5d0f-1a4c-d17d-9840-ecf039242196" targetId="2bccae4a-3b5c-e75d-ae00-5db5c7636ba7" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2bccae4a-3b5c-e75d-ae00-5db5c7636ba7" name="Warlord" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups>
+    <entryGroup id="45ea536d-445a-f59e-6b30-4ff1a3250048" name="Armour" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="37544c69-8901-6c5c-c2ee-db1ca76e78d4" name="Dread Plate Armour" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="d5ebd776-711a-120b-f821-9be56b5ffd3c" name="Plate Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="27000587-8136-1ff1-dcf7-69bf7262f59f" name="Weapons" defaultEntryId="60ef0c85-2872-7d20-813d-98b28b7b6d6a" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="be54b503-addd-9d02-c0ac-5c63c04eac4e" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="467a97b4-3d30-83c4-4423-ac1b54ec87a8" profileTypeId="576561706f6e23232344415441232323" name="Pistol" hidden="false" book="book" page="120">
+              <characteristics>
+                <characteristic characteristicId="526e23232344415441232323" name="Rn" value="12"/>
+                <characteristic characteristicId="537423232344415441232323" name="St" value="4"/>
+                <characteristic characteristicId="506e23232344415441232323" name="Pn" value=""/>
+                <characteristic characteristicId="4e6f74657323232344415441232323" name="Notes" value="awesome"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="60ef0c85-2872-7d20-813d-98b28b7b6d6a" name="Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="d0c03759-ca8f-c52c-f87b-d060bacc5fea" name="Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="f9ee652e-92b9-3d9d-91a6-2fdd6e2bdfdc" name="Heavy Assault Rifle" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="3994105e-5cb8-9369-ed69-63e0a8261292" name="Power Hammer" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules>
+    <rule id="4e3600d1-1bdc-c522-5db4-931040ece2c6" name="Has No Fear" hidden="false" book="asdasd" page="10">
+      <description>This guy is very brave indeed. He and any unit he is with will never run away.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a7a8bcdd-3072-2e27-cb9d-e4d965c7adf7" name="New Rule" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="1625042e-30d2-8c7c-82c5-0c6f376aaada" profileTypeId="496e66616e74727923232344415441232323" name="New Profile" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="435323232344415441232323" name="CS"/>
+        <characteristic characteristicId="525323232344415441232323" name="RS"/>
+        <characteristic characteristicId="537423232344415441232323" name="St"/>
+        <characteristic characteristicId="546f23232344415441232323" name="To"/>
+        <characteristic characteristicId="485023232344415441232323" name="HP"/>
+        <characteristic characteristicId="496e23232344415441232323" name="In"/>
+        <characteristic characteristicId="417423232344415441232323" name="At"/>
+        <characteristic characteristicId="4e7623232344415441232323" name="Nv"/>
+        <characteristic characteristicId="417223232344415441232323" name="Ar"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>
